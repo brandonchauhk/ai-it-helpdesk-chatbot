@@ -46,6 +46,8 @@
 └─ venv/                 # Python 虛擬環境（不需上版控）
 ```
 
+---
+
 ## 🚀 安裝與執行方式
 
 ### 1️⃣ 建立虛擬環境
@@ -58,27 +60,29 @@ python -m venv venv
 venv\Scripts\activate     # Windows
 ```
 
-# 或（macOS / Linux）
+### 或（macOS / Linux）
 
 ```bash
 source venv/bin/activate
 ```
 
-2️⃣ 安裝相依套件
+### 2️⃣ 安裝相依套件
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ 建立 .env 並設定 OpenAI API Key
+### 3️⃣ 建立 .env 並設定 OpenAI API Key
+
 OPENAI_API_KEY=你的 API 金鑰
 ⚠️ 注意：.env 不應加入 Git 或公開儲存庫。
 
-4️⃣ 準備 FAQ 資料
+### 4️⃣ 準備 FAQ 資料
+
 category,question,answer
 VPN,VPN 連接不到公司網絡,請確認網絡正常、帳號密碼正確，必要時重新啟動設備或聯絡 IT。
 
-5️⃣ 啟動系統
+### 5️⃣ 啟動系統
 
 ```bash
 streamlit run app.py
@@ -129,9 +133,6 @@ AI 回答是否符合公司政策
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
 
-```
 ## 🖼️ 介面截圖
 
 ![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
-
-```
