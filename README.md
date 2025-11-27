@@ -32,19 +32,19 @@
 
 ## 📂 專案結構
 
+```text
 .
-├─ app.py # Streamlit 主介面
-├─ config.py # 載入 .env 中的 OPENAI_API_KEY
-├─ requirements.txt # 專案相依套件
+├─ app.py                # Streamlit 主介面
+├─ config.py             # 載入 .env 中的 OPENAI_API_KEY
+├─ requirements.txt      # 專案相依套件
 ├─ data/
-│ └─ faq.csv # IT FAQ 知識庫（category, question, answer）
+│  └─ faq.csv            # IT FAQ 知識庫（category, question, answer）
 ├─ services/
-│ ├─ **init**.py
-│ ├─ openai_client.py # OpenAI API 封裝
-│ └─ knowledge_base.py # FAQ 讀取與關鍵字搜尋
-└─ venv/ # Python 虛擬環境（不需上版控）
-
----
+│  ├─ __init__.py
+│  ├─ openai_client.py   # OpenAI API 封裝
+│  └─ knowledge_base.py  # FAQ 讀取與關鍵字搜尋
+└─ venv/                 # Python 虛擬環境（不需上版控）
+```
 
 ## 🚀 安裝與執行方式
 
@@ -78,15 +78,11 @@ OPENAI_API_KEY=你的 API 金鑰
 category,question,answer
 VPN,VPN 連接不到公司網絡,請確認網絡正常、帳號密碼正確，必要時重新啟動設備或聯絡 IT。
 
----
-
 5️⃣ 啟動系統
 
 ```bash
 streamlit run app.py
 ```
-
----
 
 ## 🧠 回應模式說明
 
@@ -118,8 +114,6 @@ Chatbot 支援：
 AI 回答是否符合公司政策
 哪些 FAQ 需要優化
 
----
-
 ## 📌 未來可延伸方向（Roadmap）
 
 加入向量資料庫（如 Chroma、FAISS）
@@ -128,8 +122,6 @@ AI 回答是否符合公司政策
 加入多語言支援
 部署到企業內網伺服器或雲端（Azure / AWS）
 
----
-
 ## 👤 作者簡介
 
 擁有 20+ 年企業 IT Support / Information Systems 經驗
@@ -137,8 +129,9 @@ AI 回答是否符合公司政策
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
 
----
-
+```
 ## 🖼️ 介面截圖
 
-## ![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
+![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
+
+```
