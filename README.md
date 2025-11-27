@@ -50,12 +50,16 @@
 
 ### 1️⃣ 建立虛擬環境
 
-````bash
+```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
+```
 
 # 或（macOS / Linux）
+
+```bash
 source venv/bin/activate
+```
 
 2️⃣ 安裝相依套件
 pip install -r requirements.txt
@@ -75,14 +79,17 @@ streamlit run app.py
 ## 🧠 回應模式說明
 
 **1. 優先使用 FAQ（預設）**
+
 - 先用 FAQ 回答
 - FAQ 不夠時由 LLM 補充 IT 最佳實務
 
 **2. 僅使用 FAQ**
+
 - 完全依 FAQ 回答
 - 找不到則提示「知識庫無相關內容」
 
 **3. 一般 IT 顧問模式**
+
 - 不參考 FAQ
 - 以一般 IT Support 的方式回覆
 
@@ -111,7 +118,7 @@ AI 回答是否符合公司政策
 熟悉 AD、VPN、Outlook、Printer、帳號管理等企業日常支援流程
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
-````
+```
 
 ## 🖼️ 介面截圖
 
