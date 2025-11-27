@@ -52,6 +52,9 @@
 
 ```bash
 python -m venv venv
+```
+
+```bash
 venv\Scripts\activate     # Windows
 ```
 
@@ -62,7 +65,10 @@ source venv/bin/activate
 ```
 
 2️⃣ 安裝相依套件
+
+```bash
 pip install -r requirements.txt
+```
 
 3️⃣ 建立 .env 並設定 OpenAI API Key
 OPENAI_API_KEY=你的 API 金鑰
@@ -73,7 +79,10 @@ category,question,answer
 VPN,VPN 連接不到公司網絡,請確認網絡正常、帳號密碼正確，必要時重新啟動設備或聯絡 IT。
 
 5️⃣ 啟動系統
+
+```bash
 streamlit run app.py
+```
 
 ```markdown
 ## 🧠 回應模式說明
@@ -92,6 +101,7 @@ streamlit run app.py
 
 - 不參考 FAQ
 - 以一般 IT Support 的方式回覆
+```
 
 ## 🔍 FAQ 知識庫與可解釋性
 
@@ -118,8 +128,10 @@ AI 回答是否符合公司政策
 熟悉 AD、VPN、Outlook、Printer、帳號管理等企業日常支援流程
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
+
 ```
 
 ## 🖼️ 介面截圖
 
 ![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
+```
