@@ -118,3 +118,7 @@ AI 回答是否符合公司政策
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
 ```
+
+## 🖼️ 介面截圖
+
+![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
