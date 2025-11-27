@@ -33,7 +33,7 @@
 ## 📂 專案結構
 
 ```text
-helpdesk_chatbot/
+.
 ├─ app.py                # Streamlit 主介面
 ├─ config.py             # 載入 .env 中的 OPENAI_API_KEY
 ├─ requirements.txt      # 專案相依套件
@@ -46,15 +46,15 @@ helpdesk_chatbot/
 └─ venv/                 # Python 虛擬環境（不需上版控）
 ```
 
-## 🚀 安裝與執行方式, 建立虛擬環境
+## 🚀 安裝與執行方式
 
-1️⃣ 建立虛擬環境
+### 1️⃣ 建立虛擬環境
 
-```bash
+````bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 
-# 或 macOS / Linux
+# 或（macOS / Linux）
 source venv/bin/activate
 
 2️⃣ 安裝相依套件
@@ -65,32 +65,26 @@ OPENAI_API_KEY=你的 API 金鑰
 ⚠️ 注意：.env 不應加入 Git 或公開儲存庫。
 
 4️⃣ 準備 FAQ 資料
-檔案位置：
-data/faq.csv
-範例格式（可自行擴充）：
 category,question,answer
 VPN,VPN 連接不到公司網絡,請確認網絡正常、帳號密碼正確，必要時重新啟動設備或聯絡 IT。
 
 5️⃣ 啟動系統
 streamlit run app.py
-開啟網址（通常會自動開啟）：
-http://localhost:8501
 
+```markdown
 ## 🧠 回應模式說明
 
-系統內建三種模式：
-
 **1. 優先使用 FAQ（預設）**
-先用 FAQ 回答
-FAQ 不夠時由 LLM 補充 IT 最佳實務
+- 先用 FAQ 回答
+- FAQ 不夠時由 LLM 補充 IT 最佳實務
 
 **2. 僅使用 FAQ**
-完全依 FAQ 回答
-找不到則提示「知識庫無相關內容」
+- 完全依 FAQ 回答
+- 找不到則提示「知識庫無相關內容」
 
 **3. 一般 IT 顧問模式**
-不參考 FAQ
-以一般 IT Support 的方式回覆
+- 不參考 FAQ
+- 以一般 IT Support 的方式回覆
 
 ## 🔍 FAQ 知識庫與可解釋性
 
@@ -117,7 +111,7 @@ AI 回答是否符合公司政策
 熟悉 AD、VPN、Outlook、Printer、帳號管理等企業日常支援流程
 2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
-```
+````
 
 ## 🖼️ 介面截圖
 
