@@ -49,12 +49,13 @@ helpdesk_chatbot/
 ## 🚀 安裝與執行方式, 建立虛擬環境
 
 1️⃣ 建立虛擬環境
+
+```bash
 python -m venv venv
-venv\Scripts\activate # Windows
+venv\Scripts\activate     # Windows
 
-# 或
-
-source venv/bin/activate # macOS / Linux
+# 或 macOS / Linux
+source venv/bin/activate
 
 2️⃣ 安裝相依套件
 pip install -r requirements.txt
@@ -79,15 +80,15 @@ http://localhost:8501
 
 系統內建三種模式：
 
-優先使用 FAQ（預設）
+**1. 優先使用 FAQ（預設）**
 先用 FAQ 回答
 FAQ 不夠時由 LLM 補充 IT 最佳實務
 
-僅使用 FAQ
+**2. 僅使用 FAQ**
 完全依 FAQ 回答
 找不到則提示「知識庫無相關內容」
 
-一般 IT 顧問模式
+**3. 一般 IT 顧問模式**
 不參考 FAQ
 以一般 IT Support 的方式回覆
 
@@ -112,7 +113,8 @@ AI 回答是否符合公司政策
 
 ## 👤 作者簡介
 
-擁有 20+ 年企業 IT Support / Information Systems 經驗  
-熟悉 AD、VPN、Outlook、Printer、帳號管理等企業日常支援流程  
-2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）  
+擁有 20+ 年企業 IT Support / Information Systems 經驗
+熟悉 AD、VPN、Outlook、Printer、帳號管理等企業日常支援流程
+2024–2025 期間完成多項 AI / LLM 相關課程（Coursera / Google 等）
 致力於將 AI 技術應用於企業 IT 支援、自動化與實務場景中
+```
