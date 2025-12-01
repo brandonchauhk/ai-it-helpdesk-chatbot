@@ -111,10 +111,12 @@ streamlit run app.py
 系統內建三種模式，可在 UI 中選擇切換：
 
 1. 優先使用 FAQ（預設）
+
    - 先嘗試以 FAQ 回答使用者問題
    - 若 FAQ 資訊不足，再由 LLM 補充一般 IT 最佳實務建議
 
 2. 僅使用 FAQ
+
    - 完全依據 FAQ 回答
    - 若 FAQ 找不到對應條目，會明確回覆「知識庫無相關內容」
 
@@ -157,3 +159,9 @@ Chatbot 可顯示：
 - 專注於將 AI 技術應用於企業 IT 支援、自動化與實務場景
 
 如果你正在評估如何在公司內部導入 AI 協助 IT Support，歡迎 Fork 本專案並依照你們的 FAQ 與政策調整。
+
+## 🖼️ 介面截圖
+
+![AI IT Helpdesk Chatbot Screenshot](./screenshot.png)
+
+---
